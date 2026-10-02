@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F9FC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fintech Billing App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan 11: Parsing JSON &amp; Pemodelan DTO"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/btnParseBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UJI COBA PARSING JSON MERCHANT"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2864E8" />
+
+    <TextView
+        android:id="@+id/tvOutputBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:text="Hasil parsing akan muncul di sini..."
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:background="#FFF7FB" />
+
+    <Button
+        android:id="@+id/btnLihatInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2864E8"
+        android:text="LIHAT INVOICE"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
